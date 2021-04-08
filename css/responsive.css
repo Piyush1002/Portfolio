@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* @import url('css/font-awesome.min.css');*/
+
+/* In html file */
+/*<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta name="viewport" content="width=device-width">*/
+
+/**
+ * 8.0 Media Queries
+ * ----------------------------------------------------------------------------
+ */
+
+/* Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
+ * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
+ */
+@-ms-viewport {
+	width: device-width;
+}
+@viewport {
+	width: device-width;
+}
+
+@media (max-width: 1599px) {
+}
+
+@media (max-width: 1200px) {
+	
+	}
+
+@media (max-width: 1069px) {
+
+}
+
+@media (max-width: 992px) {
+#about_us .left_content h2{font-size:25px;}
+#about_us .left_content .btn{margin-bottom:15px;}
+	#work_process hgroup h1{font-size:30px;}
+	#work_process .box h4{font-size:23px;}
+	#offer hgroup h1{font-size:30px;}  
+	#offer .offer_box i{font-size:26px; padding:10px;}
+	#offer .offer_box h3{font-size:23px;}
+	#portfolio hgroup h1{font-size:30px;}
+	#hire .hire_left h4{font-size:20px;}
+	#clients hgroup h1{font-size:30px;}
+	#blog  hgroup h1{font-size:30px;}
+	#blog .blog_text h4{font-size:20px;}
+}
+
+/* Collapse oversized image and pulled images after iPad breakpoint. */
+@media (max-width: 767px) {
+	header .logo img{width:50px;}
+#slider .slider_content h1{font-size:30px;}
+#slider .slider_content .btn{padding:4px 10px;}
+#about_us .left_content h2{font-size:20px;}
+#about_us .left_content .btn{padding:4px 10px;}
+#work_process .box h4{font-size:18px;}
+#work_process .box p{font-size:15px;}
+#work_process hgroup h1{font-size:25px;}
+#work_process hgroup p{font-size:15px;}
+#offer hgroup h1{font-size:25px;}
+#offer hgroup p{font-size:15px;}
+#offer .offer_box h3{font-size:18px;}
+#offer .offer_box p{font-size:15px;}
+#portfolio hgroup h1{font-size:25px;}
+#portfolio hgroup p{font-size:15px;}
+#hire .hire_left h4{font-size:17px;}
+#hire .hire_right .btn{padding:5px 10px;}
+#clients hgroup h1{font-size:25px;}
+#clients hgroup p{font-size:15px;}
+#blog hgroup h1{font-size:25px;}
+#blog hgroup p{font-size:15px;}
+#blog .blog_text li i{margin-right:15px;}
+#blog .blog_box{padding-bottom:15px;}
+}
+
+@media (max-width: 480px) {
+
+
+}
+
+/* Mobile devices */
+@media (max-width: 359px) {
+	#slider .slider_content{font-size:15px; margin-top:15px;}
+#slider .slider_content h1{font-size:20px;}
+#slider .slider_content .btn{padding:4px 10px;}
+#slider .slider_content .btn{padding:2px 5px;}
+#about_us{padding-top:20px; }
+#about_us .left_content h2{font-size:15px; margin-bottom:10px;}
+#about_us .left_content p{font-size:11px;}
+#about_us .left_content .btn{padding:2px 3px;}
+#about_us .right_content{display:none;}
+#about_us .left_content h{font-size:20px;}
+#work_process{padding:20px 0px;}
+#work_process hgroup{margin-bottom:-28px;}
+#work_process hgroup h1{font-size:20px;}
+#work_process hgroup p{font-size:12px;}
+#work_process .box h4{font-size:16px;}
+#work_process .box p{font-size:12px;}
+#offer{padding:20px 0px;}
+#offer hgroup h1{font-size:20px;}
+#offer hgroup p{font-size:12px;}
+#offer .offer_box h3{font-size:15px;}
+#offer .offer_box p{font-size:12px;}
+#portfolio hgroup h1{font-size:20px;}
+#portfolio hgroup p{font-size:12px;}
+#portfolio hgroup ul li{padding:0px 5px;}
+#portfolio hgroup ul{margin-bottom:-11px;}
+#portfolio .button .btn{padding:2px 5px;}
+#portfolio .button{margin-top:-15px;}
+#portfolio{padding:20px 0px;}
+#hire{padding:10px 0px;}
+#hire .hire_right{margin-bottom:-12px;}
+ #hire .hire_right .btn{padding:2px 5px;}
+ #clients{padding:20px 0px;}
+ 
+ #clients hgroup h2{font-size:20px;}
+#clients hgroup p{font-size:13px;}
+#brand{padding:20px 0px;}
+#brand .owl-dots{display:none;}
+#blog{padding:20px 0px;} 
+#blog  hgroup h1{font-size:20px;}
+#blog  hgroup p{font-size:12px;}
+.blog_text p{font-size:12px;}
+footer{padding:20px 0px;}
+}
+/**
+ * 9.0 Print
+ * ----------------------------------------------------------------------------
+ */
+
+/* Retina-specific styles. */
+@media print,
+	(-o-min-device-pixel-ratio: 5/4),
+	(-webkit-min-device-pixel-ratio: 1.25),
+	(min-resolution: 120dpi) {
+
+}
+
+@media print {
+
+}
